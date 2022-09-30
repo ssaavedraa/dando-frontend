@@ -1,0 +1,23 @@
+.simulator{
+  label {
+    color: rgb(59, 16, 160);
+    font-size: 1rem;
+    margin-top: 8px;
+  }
+
+  .input-field {
+    border-radius: 8px;
+    border: solid lightgray 1px;
+    padding: 8px;
+  }
+
+  &-form{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    border: dashed rgba($color: purple, $alpha: 0.35) 2px;
+    padding: 1rem;
+    flex-direction: column;
+    background-color: rgba($color: purple, $alpha: 0.25);
+  }
+}
