@@ -60,9 +60,6 @@
         @click="calculate"
       >Calcular</button>
     </form>
-    <p>{{ this.interestValue.split(' ')[0] / 100 }}</p>
-    <p>{{ this.formData.amount }}</p>
-    <p>{{ this.formData.term }}</p>
   </div>
 </template>
 
